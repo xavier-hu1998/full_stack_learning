@@ -1,0 +1,25 @@
+.editpage{
+    text-align: center;
+    background-color: #d2d2d2;
+    height: 100vh;
+    padding: 80px;
+
+   }
+.editpage .rich-editor {
+    
+    width: 100%;
+    padding: 0.6em;
+    font-size: medium;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+ .editpage .rich-editor .rdw-editor-main {
+    background-color: #fff;
+   }
+ .rich-editor .DraftEditor-editorContainer {
+    padding: 2rem;
+   }
+ .draft-editor-wrapper {
+    border: 1px solid #ccc;
+ }

@@ -1,0 +1,119 @@
+.mainpage{
+  background-color: #ebecee;
+  margin: 0px 10px 0px 10px;
+  padding-bottom: 10;
+}
+
+.about {
+  background-color: #9098a8;
+  display: inline-block;
+  position: sticky;
+  top: 80px;
+  bottom: 0;
+  width: 30%;
+  height: 100vh;
+  vertical-align: top;
+}
+.profile_pic_container {
+  /* background-color: white; */
+  vertical-align: middle;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.picture {
+  padding: 10px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 250px;
+}
+
+.intro_text {
+  padding: 25px;
+  height: 90%;
+  font-size: small;
+}
+
+.posts {
+  margin-top: 0px;
+  display: inline-block;
+  width: 70%;
+}
+
+.posts--repo{
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  max-height: 350px;
+  height: 250px;
+  flex: 1;
+  margin:60px 0px 50px 0px;
+  /* margin: 0 1rem; */
+  border-radius: 0px;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.addButton{
+  align-items: middle;
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  
+}
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item__title {
+  color: #5a2404;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.cards__item__text {
+  color: #161924;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+.btn-primary{
+  background-color: #d1824d;
+  height: 50px;
+  width: 500px;
+}
+
+.btn-primary:hover{
+  background-color: #2f4594;
+}
+

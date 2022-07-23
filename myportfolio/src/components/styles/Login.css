@@ -1,0 +1,85 @@
+
+.login {
+    background: url("../../resources/images/geronimo-giqueaux-xxVjYw8oiUA-unsplash.jpg");
+    background-size: cover;
+    height: 150vh;
+}
+
+.login .form-box {
+    position: relative;
+    padding: 2em;
+    left: 0;
+    right: 0;
+    top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    border: 1.5px solid black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.login .btn{
+    width: 50%
+}
+
+.login h2 {
+    margin-top: 0;
+}
+
+.login h5{
+    color:#584b42;
+}
+
+.login .form-box form {
+    margin-top: 2em;
+}
+
+.login .form-box form label .password-warning {
+    font-weight: 500;
+    color: rgb(233, 103, 89);
+    font-size: 0.8em;
+}
+
+.login .form-box form label * {
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+
+.login .form-box form label input {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120%;
+    padding: 0.6em;
+    font-size: medium;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.login .form-box form .login-submit-box {
+    margin: 1.2em auto 0 auto;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #d1824d;
+    color: white;
+    
+  }
+  
+  .btn-login:hover{
+    background-color: #2f4594;
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+    transition: 250ms;
+  }
+  
