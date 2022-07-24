@@ -117,14 +117,14 @@
 // }
 
 
-let century;
-const birthYear = 1998;
-if(birthYear <= 2000){
-    century = 20;
-}else{
-    century = 21;
-}
-console.log(century);
+// let century;
+// const birthYear = 1998;
+// if(birthYear <= 2000){
+//     century = 20;
+// }else{
+//     century = 21;
+// }
+// console.log(century);
 
 
 
@@ -197,11 +197,46 @@ console.log(typeof(NaN)); // number
 
 console.log(String(23), 23);
 /*
-type coercion:
+type coercion: 类型强制转换
 将一个值从一个类型明确地转换到另一个类型通常称为“类型转换（type casting）”，
 当这个操作隐含地完成时称为“强制转换（coercion）”
 （根据一个值如何被使用的规则来强制它变换类型）。
 */
 
 console.log('I am ' + 23 + 'years old'); // 23 was converted into string
+console.log('23' - 10 - 3 ); // 10
+console.log('23'*2) // 46
+console.log('22'/ '2' ) // 11
+console.log(2 + 3 + 4 + '5') //95   2+3+4 =9 -> 9+'5' = 95
+console.log('10'-'4'-'3' - 2 + '5') // 15  '10'-'4'-'3' = 3 -> 3-2=1 -> 1+'5'='15'
 
+
+/////////////////////////////////////////////////
+
+//Lecture 21 Truthy and Falsy Value
+
+/////////////////////////////////////////////////
+
+// Falsy Values: 0, '', undefined, null, NaN
+
+console.log('Lecture21 console:')
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean({})); // Empty Object is a truthy value
+
+/////////////////////////////////////////////////
+
+//Lecture 22: Equality Operators == vs ===
+
+/////////////////////////////////////////////////
+
+const age = 18;
+if(age === 18) console.log(`You are Adult now
+LOL`)
+
+// === is the strick equal, which dose not do type coercion
+// ==  is the loose equal, which would do type coercion
+
+console.log(18 == '18') // true
+console.log(18 === '18') //false
