@@ -17,14 +17,10 @@ ECMAScript 5的严格模式是采用具有限制性 JavaScript 变体的一种�
 // if (passTest) hasDriversLicense = true;
 // if (hasDriversLicense) console.log(`I can drive`);
 
-
 // const interface = 'Audio';
 // const private = 534;
 
-
-
-// Function 
-
+// Function
 
 // function logger(){
 //     console.log(`my name is Xavier!`);
@@ -35,7 +31,6 @@ ECMAScript 5的严格模式是采用具有限制性 JavaScript 变体的一种�
 // logger();
 // logger();
 
-
 // function fruitProcessor(apples, oranges){
 //     console.log(apples, oranges);
 //     const juice = `juice with ${apples} apples and ${oranges} oranges`;
@@ -45,13 +40,12 @@ ECMAScript 5的严格模式是采用具有限制性 JavaScript 变体的一种�
 // const juice = fruitProcessor(5, 0);
 // console.log(juice);
 
-
 ///////////////////////////////////////
 // Reviewing Functions
 // const calcAge = function (birthYeah) {
 //     return 2037 - birthYeah;
 //   }
-  
+
 // const yearsUntilRetirement = function (birthYeah, firstName) {
 // const age = calcAge(birthYeah);
 // const retirement = 65 - age;
@@ -64,16 +58,13 @@ ECMAScript 5的严格模式是采用具有限制性 JavaScript 变体的一种�
 //     return -1;
 // }
 // }
-  
+
 //   console.log(yearsUntilRetirement(1991, 'Jonas'));
 //   console.log(yearsUntilRetirement(1950, 'Mike'));
-  
-  ///////////////////////////////////////
 
+///////////////////////////////////////
 
-
-
-  ///////////////////////////////////////
+///////////////////////////////////////
 // Coding Challenge #1
 
 /*
@@ -111,12 +102,10 @@ GOOD LUCK 😀
 
 // console.log(friends);
 
-
 // const mix = new Array('1', '2', 3);
 
 // console.log(typeof(mix[0]));
 // console.log(typeof(mix[2]));
-
 
 ///////////////////////////////////////
 // Basic Array Operations (Methods)
@@ -129,15 +118,14 @@ GOOD LUCK 😀
 // console.log(friends);
 // console.log(newLength);
 
-
 // friends.unshift('John');
 // console.log(friends);
 
 // // Remove elements
 // console.log(`Remove elements`);
 // console.log(friends);
-// // Last pop() 方法用于删除数组的最后一个元素并返回删除的元素。 
-// //注意：此方法改变数组的长度！ 
+// // Last pop() 方法用于删除数组的最后一个元素并返回删除的元素。
+// //注意：此方法改变数组的长度！
 // //提示： 移除数组第一个元素，请使用shift() 方法。
 // const popped = friends.pop();
 // console.log(popped);
@@ -158,10 +146,6 @@ GOOD LUCK 😀
 // //   console.log('You have a friend called Steven');
 // // }
 
-
-
-
-
 ///////////////////////////////////////
 // Coding Challenge #2
 
@@ -180,7 +164,6 @@ HINT: Remember that an array needs a value in each position, and that value can 
 GOOD LUCK 😀
 */
 
-
 // const calcTip = function (bill) {
 //     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 // }
@@ -190,7 +173,6 @@ GOOD LUCK 😀
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 // console.log(bills, tips, totals);
-
 
 // const calTip = function (bill){
 //     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill*0.2;
@@ -204,26 +186,147 @@ GOOD LUCK 😀
 
 ///////////////////////////////////////
 // Introduction to Objects
-const jonasArray = [
-    'Jonas',
-    'Schmedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven']
-  ];
-  
-  const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    age: 2037 - 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
-  };
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+//   ];
 
+//   const jonas = {
+//     firstName: 'Xavier',
+//     lastName: 'Hu',
+//     age: 2022 - 1998,
+//     job: 'programmer',
+//     friends: ['Michael', 'Peter', 'Steven']
+//   };
 
+// console.log(jonas);
+// console.log(jonas.firstName);
+// console.log(jonas[`firstName`]);
 
-  
+// const nameKey = 'Name'
+// console.log(jonas[`first` + nameKey]);
+// console.log(jonas[`last` + nameKey]);
 
+///////////////////////////////////////
+// Dot vs. Bracket Notation
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+//   };
+//   console.log(jonas);
 
+//   console.log(jonas.lastName);
+//   console.log(jonas['lastName']);
 
+//   const nameKey = 'Name';
+//   console.log(jonas['first' + nameKey]);
+//   console.log(jonas['last' + nameKey]);
 
+// console.log(jonas.'last' + nameKey)
+
+//   const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends');
+
+//   if (jonas[interestedIn]) {
+//     console.log(jonas[interestedIn]);
+//   } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+//   }
+
+//   jonas.location = 'Portugal';
+//   jonas['twitter'] = '@jonasschmedtman';
+//   console.log(jonas);
+
+//   // Challenge
+//   // "Jonas has 3 friends, and his best friend is called Michael"
+//   console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+// const jonas = {
+
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1998,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+
+//     // calcAge: function(birthYeah){
+//     //     return 2022-birthYeah;
+//     // }
+//     // calcAge: function(){
+//     //     return 2022- this.birthYear;
+//     // }
+
+//     calcAge: function(){
+//         this.age = 2022-this.birthYear;
+//         return this.age;
+//     },
+
+//     getSumary: function(){
+//         return `${this.firstName} is a ${this.calcAge()} \ year old ${this.job} \ , and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`
+
+//     }
+// };
+
+// console.log(jonas.age);
+
+// //Challenge
+// // "Jonas has 3 friends, and his best friend is called Michael"
+// console.log(jonas.getSumary())
+
+///////////////////////////////////////
+// Coding Challenge #3
+
+/*
+Let's go back to Mark and John comparing their BMIs! This time, let's use objects to implement the calculations! Remember: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter)
+
+1. For each of them, create an object with properties for their full name, mass, and height (Mark Miller and John Smith)
+2. Create a 'calcBMI' method on each object to calculate the BMI (the same method on both objects). Store the BMI value to a property, and also return it from the method.
+3. Log to the console who has the higher BMI, together with the full name and the respective BMI. Example: "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+
+TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+
+GOOD LUCK 😀
+*/
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//       this.bmi = this.mass / this.height ** 2;
+//       return this.bmi;
+//     }
+//   };
+
+//   const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//       this.bmi = this.mass / this.height ** 2;
+//       return this.bmi;
+//     }
+//   };
+
+//   mark.calcBMI();
+//   john.calcBMI();
+
+//   console.log(mark.bmi, john.bmi);
+
+//   // "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+
+// if (mark.bmi > john.bmi) {
+//   console.log(
+//     `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`
+//   );
+// } else if (john.bmi > mark.bmi) {
+//   console.log(
+//     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`
+//   );
+// }

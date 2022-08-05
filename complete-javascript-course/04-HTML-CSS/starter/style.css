@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* always use this */
+}
+
+body {
+  background-color: rgb(139, 210, 234);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 75px;
+  /*
+  font-family property is a  property that gets inherited继承
+  all child element of the body element would automatically get this font-family   */
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* This is a class: */
+.first {
+  color: blue;
+}
+
+form {
+  font-size: medium;
+}
+
+/* This is a id: */
+#your-name {
+  background-color: rgb(32, 196, 196);
+  border: 5px solid #444;
+}
+
+#catimg {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
