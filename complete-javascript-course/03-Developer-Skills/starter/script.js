@@ -63,3 +63,29 @@ const printForecast = function (arr) {
 };
 
 printForecast(data1);
+
+// function getNumOrder(n) {
+//   let a = "";
+//   if (n == 1) {
+//     return (a = "1st");
+//   } else if (n == 2) {
+//     return (a = "2nd");
+//   } else if (n == 3) {
+//     return (a = "3rd");
+//   } else {
+//     return (a = `${n}th`);
+//   }
+// }
+
+// console.log(getNumOrder(1));
+
+// const printForecast = function (arr) {
+//   let str = "";
+
+//   for (let i = 0; i < arr.length; i++) {
+//     str += `... ${arr[i]} ºC in the ${getNumOrder(i + 1)} day`;
+//   }
+//   console.log(str);
+// };
+
+// printForecast(data1);
