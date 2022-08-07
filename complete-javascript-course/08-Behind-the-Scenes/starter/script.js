@@ -56,3 +56,5 @@ var addExpr = function (a, b) {
 //NOtE So typeof(addExpr()) would be undefined instead of function
 
 const addArrow = (a, b) => a + b;
+
+//SECTION: The THIS keyword
