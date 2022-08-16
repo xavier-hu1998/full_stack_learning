@@ -1,17 +1,15 @@
 // let js = 'amazing';
 // // if (js === 'amazing') alert('js is fun!');
 
-// console.log(50+50);
+console.log(50 + 50);
 
 // let firstName = 'Yuxiang';
 // console.log(firstName);
 
 // // var could not start with numbers;
-// // for example let 3years = 3; 
+// // for example let 3years = 3;
 // // let Person = 'xxx' wrong;
 // // let PI = 3.1415;
-
-
 
 // console.log(typeof true);
 // console.log(typeof '23');
@@ -21,19 +19,15 @@
 // firstName = true;
 // console.log(typeof firstName);
 
-
 // console.log(typeof null);
 // //  bug wil return Object
-
 
 // let age = 24;
 // age = 25;
 
 // // mutate a var
 
-
-
-// // operations 
+// // operations
 // const now = 2022;
 // const ageA = now-1998;
 // const ageB = now-2000;
@@ -45,12 +39,10 @@
 
 // console.log(now - 1998 > now - 2000);
 
-
 // console.log(3>2>1);
 // // false, 因为 3>2 是true ， 1>1 is false
 
-
-// // 
+// //
 // // Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
 
 // // 1. Store Mark's and John's mass and height in variables
@@ -60,13 +52,12 @@
 // // TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 // // TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
-
 // // const massMark = 78;
 // // const heightMark = 1.69;
 // // const massJohn = 92;
 // // const heightJohn = 1.95;
 
-// // 
+// //
 // // const massMark = 95;
 // // const heightMark = 1.88;
 // // const massJohn = 85;
@@ -78,9 +69,6 @@
 
 // // console.log(BMIMark, BMIJohn, markHigherBMI);
 
-
-
-
 // const myName = 'Yuxiang'
 // const myAge = 24
 // const me = "I'm" + myName + ', a ' + myAge + 'years fresh graduate'
@@ -89,17 +77,14 @@
 // const meNew = `I'm ${myName}, a ${myAge}, year old student`;
 // console.log(meNew)
 
-
 // console.log(`string with new line \n\
 // multiple \n\
 // lines`);
 
-
 // console.log(`string
-// with 
+// with
 // multiple
 // lines`);
-
 
 /////////////////////////////////////////////////
 
@@ -116,7 +101,6 @@
 //     console.log(`She is too young, Wait for ${yearLeft} years`)
 // }
 
-
 // let century;
 // const birthYear = 1998;
 // if(birthYear <= 2000){
@@ -125,10 +109,6 @@
 //     century = 21;
 // }
 // console.log(century);
-
-
-
-
 
 /////////////////////////////////////////////////
 
@@ -172,7 +152,6 @@ if (BMIMark > BMIJohn) {
 
 /////////////////////////////////////////////////
 
-
 // typeof "John"                 // 返回 string
 // typeof 3.14                   // 返回 number
 // typeof NaN                    // 返回 number
@@ -184,13 +163,10 @@ if (BMIMark > BMIJohn) {
 // typeof myCar                  // 返回 undefined (如果 myCar 没有声明)
 // typeof null                   // 返回 object
 
-
-
 // // type conversion:
 // const inputYear = '1998';
 // console.log(inputYear + 18); // will return '199818'
 // console.log(Number(inputYear) + 18); // 2016
-
 
 // console.log(Number('Yuxiang')); // return NaN => Not a Number
 // console.log(typeof(NaN)); // number
