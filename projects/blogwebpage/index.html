@@ -1,4 +1,7 @@
 <div class="container" x-data="{ rightSide: false, leftSide: false }">
+  <style>
+    @import url(style.css);
+  </style>
   <div class="left-side" :class="{'active' : leftSide}">
     <div class="left-side-button" @click="leftSide = !leftSide">
       <svg
